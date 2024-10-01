@@ -1,0 +1,324 @@
+{
+  "tests": 20,
+  "failures": 20,
+  "disabled": 0,
+  "errors": 0,
+  "timestamp": "2024-10-01T16:33:23Z",
+  "time": "0s",
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "CheckPoint1",
+      "tests": 6,
+      "failures": 6,
+      "disabled": 0,
+      "errors": 0,
+      "timestamp": "2024-10-01T16:33:23Z",
+      "time": "0s",
+      "testsuite": [
+        {
+          "name": "TestDieselEnergyConstructorShouldHaveCorrectValue",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:33:23Z",
+          "time": "0s",
+          "classname": "CheckPoint1",
+          "failures": [
+            {
+              "failure": "\/box\/OOP2023f_111590028_HW\/test\/ut_CheckPoint1.cpp:9\nExpected equality of these values:\n  dieselEnergy.GetEnergy()\n    Which is: -882711208\n  250",
+              "type": ""
+            }
+          ]
+        },
+        {
+          "name": "TestDieselEnergyGetDistanceShouldHaveCorrectDistance",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:33:23Z",
+          "time": "0s",
+          "classname": "CheckPoint1",
+          "failures": [
+            {
+              "failure": "\/box\/OOP2023f_111590028_HW\/test\/ut_CheckPoint1.cpp:16\nExpected equality of these values:\n  dieselEnergy.GetDistance()\n    Which is: -882711208\n  calculateHelper.CalculateDieselDistance(250)\n    Which is: 50",
+              "type": ""
+            }
+          ]
+        },
+        {
+          "name": "TestDieselEnergyGetArrivalTimeShouldHaveCorrectArrivalTime",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:33:23Z",
+          "time": "0s",
+          "classname": "CheckPoint1",
+          "failures": [
+            {
+              "failure": "\/box\/OOP2023f_111590028_HW\/test\/ut_CheckPoint1.cpp:23\nExpected equality of these values:\n  dieselEnergy.GetTerminalStationArrivalTimeInSecond()\n    Which is: -882711208\n  calculateHelper.CalculateDieselArrivalTime(250)\n    Which is: 158",
+              "type": ""
+            }
+          ]
+        },
+        {
+          "name": "TestElectricEnergyConstructorShouldHaveCorrectValue",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:33:23Z",
+          "time": "0s",
+          "classname": "CheckPoint1",
+          "failures": [
+            {
+              "failure": "\/box\/OOP2023f_111590028_HW\/test\/ut_CheckPoint1.cpp:29\nExpected equality of these values:\n  electricEnergy.GetEnergy()\n    Which is: -882711208\n  399",
+              "type": ""
+            }
+          ]
+        },
+        {
+          "name": "TestElectricEnergyGetDistanceShouldHaveCorrectDistance",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:33:23Z",
+          "time": "0s",
+          "classname": "CheckPoint1",
+          "failures": [
+            {
+              "failure": "\/box\/OOP2023f_111590028_HW\/test\/ut_CheckPoint1.cpp:36\nExpected equality of these values:\n  electricEnergy.GetDistance()\n    Which is: -882711208\n  calculateHelper.CalculateElectricDistance(399)\n    Which is: 5983",
+              "type": ""
+            }
+          ]
+        },
+        {
+          "name": "TestElectricEnergyGetArrivalTimeShouldHaveCorrectArrivalTime",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:33:23Z",
+          "time": "0s",
+          "classname": "CheckPoint1",
+          "failures": [
+            {
+              "failure": "\/box\/OOP2023f_111590028_HW\/test\/ut_CheckPoint1.cpp:43\nExpected equality of these values:\n  electricEnergy.GetTerminalStationArrivalTimeInSecond()\n    Which is: -882711208\n  calculateHelper.CalculateElectricArrivalTime(399)\n    Which is: 2147483647",
+              "type": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CheckPoint2",
+      "tests": 9,
+      "failures": 9,
+      "disabled": 0,
+      "errors": 0,
+      "timestamp": "2024-10-01T16:33:23Z",
+      "time": "0s",
+      "testsuite": [
+        {
+          "name": "TestTicketInfoConstructorShouldSetupValueCorrectly",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:33:23Z",
+          "time": "0s",
+          "classname": "CheckPoint2",
+          "failures": [
+            {
+              "failure": "unknown file\nC++ exception with description \"basic_string::_M_create\" thrown in the test body.",
+              "type": ""
+            }
+          ]
+        },
+        {
+          "name": "TestTicketInfoGetPriceShouldReturnCorrectPrice",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:33:23Z",
+          "time": "0s",
+          "classname": "CheckPoint2",
+          "failures": [
+            {
+              "failure": "\/box\/OOP2023f_111590028_HW\/test\/ut_CheckPoint2.cpp:24\nExpected equality of these values:\n  ticketInfo.GetPrice()\n    Which is: -882711264\n  75",
+              "type": ""
+            }
+          ]
+        },
+        {
+          "name": "TestReserveInfoConstructorShouldSetupValueCorrectly",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:33:23Z",
+          "time": "0s",
+          "classname": "CheckPoint2",
+          "failures": [
+            {
+              "failure": "\/box\/OOP2023f_111590028_HW\/test\/ut_CheckPoint2.cpp:30\nExpected equality of these values:\n  reserveInfo.GetTrain()\n    Which is: -882711216\n  5",
+              "type": ""
+            }
+          ]
+        },
+        {
+          "name": "TestReserveTicketInfoConstructorShouldSetupValueCorrectly",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:33:23Z",
+          "time": "0s",
+          "classname": "CheckPoint2",
+          "failures": [
+            {
+              "failure": "unknown file\nC++ exception with description \"basic_string::_M_create\" thrown in the test body.",
+              "type": ""
+            }
+          ]
+        },
+        {
+          "name": "TestReserveTicketGetStartStationShouldReturnCorrectStation",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:33:23Z",
+          "time": "0s",
+          "classname": "CheckPoint2",
+          "failures": [
+            {
+              "failure": "\/box\/OOP2023f_111590028_HW\/test\/ut_CheckPoint2.cpp:50\nExpected equality of these values:\n  reserveTicketInfo.GetStartStation()\n    Which is: \"\"\n  \"Taipei\"",
+              "type": ""
+            }
+          ]
+        },
+        {
+          "name": "TestReserveTicketGetEndStationShouldReturnCorrectStation",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:33:23Z",
+          "time": "0s",
+          "classname": "CheckPoint2",
+          "failures": [
+            {
+              "failure": "\/box\/OOP2023f_111590028_HW\/test\/ut_CheckPoint2.cpp:57\nExpected equality of these values:\n  reserveTicketInfo.GetEndStation()\n    Which is: \"\"\n  \"Tainan\"",
+              "type": ""
+            }
+          ]
+        },
+        {
+          "name": "TestReserveTicketGetPriceShouldReturnCorrectPrice",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:33:23Z",
+          "time": "0s",
+          "classname": "CheckPoint2",
+          "failures": [
+            {
+              "failure": "\/box\/OOP2023f_111590028_HW\/test\/ut_CheckPoint2.cpp:64\nExpected equality of these values:\n  reserveTicketInfo.GetPrice()\n    Which is: -1\n  150",
+              "type": ""
+            }
+          ]
+        },
+        {
+          "name": "TestReserveTicketGetReserveInfoShouldReturnCorrectReserveInfo",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:33:23Z",
+          "time": "0s",
+          "classname": "CheckPoint2",
+          "failures": [
+            {
+              "failure": "\/box\/OOP2023f_111590028_HW\/test\/ut_CheckPoint2.cpp:71\nExpected equality of these values:\n  reserveTicketInfo.GetReserveInfo().GetTrain()\n    Which is: -882711352\n  1",
+              "type": ""
+            }
+          ]
+        },
+        {
+          "name": "TestReserveTicketWithMultipleTicketShouldReturnCorrectReserveInfo",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:33:23Z",
+          "time": "0s",
+          "classname": "CheckPoint2",
+          "failures": [
+            {
+              "failure": "\/box\/OOP2023f_111590028_HW\/test\/ut_CheckPoint2.cpp:83\nExpected equality of these values:\n  reserveTicketInfo.GetReserveInfo().GetTrain()\n    Which is: -882711368\n  5",
+              "type": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CheckPoint3",
+      "tests": 5,
+      "failures": 5,
+      "disabled": 0,
+      "errors": 0,
+      "timestamp": "2024-10-01T16:33:23Z",
+      "time": "0s",
+      "testsuite": [
+        {
+          "name": "TestTrainConstructorShouldHaveCorrectTrain",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:33:23Z",
+          "time": "0s",
+          "classname": "CheckPoint3",
+          "failures": [
+            {
+              "failure": "\/box\/OOP2023f_111590028_HW\/test\/ut_CheckPoint3.cpp:19\nExpected equality of these values:\n  train.GetEnergyInfo()->GetEnergy()\n    Which is: -418598496\n  450",
+              "type": ""
+            }
+          ]
+        },
+        {
+          "name": "TestTrainReserveSeatShouldHaveCorrectReserveInfo",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:33:23Z",
+          "time": "0s",
+          "classname": "CheckPoint3",
+          "failures": [
+            {
+              "failure": "\/box\/OOP2023f_111590028_HW\/test\/ut_CheckPoint3.cpp:29\nExpected equality of these values:\n  reserveInfo.GetTrain()\n    Which is: -882711352\n  1",
+              "type": ""
+            }
+          ]
+        },
+        {
+          "name": "TestTrainReserveSeatWithMultiplePollShouldHaveCorrectReserveInfo",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:33:23Z",
+          "time": "0s",
+          "classname": "CheckPoint3",
+          "failures": [
+            {
+              "failure": "\/box\/OOP2023f_111590028_HW\/test\/ut_CheckPoint3.cpp:43\nExpected equality of these values:\n  reserveInfo.GetTrain()\n    Which is: -882711352\n  8",
+              "type": ""
+            }
+          ]
+        },
+        {
+          "name": "TestTrainGetArrivalTimeShouldHaveCorrectArrivalTime",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:33:23Z",
+          "time": "0s",
+          "classname": "CheckPoint3",
+          "failures": [
+            {
+              "failure": "\/box\/OOP2023f_111590028_HW\/test\/ut_CheckPoint3.cpp:53\nExpected equality of these values:\n  train.GetEnergyInfo()->GetTerminalStationArrivalTimeInSecond()\n    Which is: -418598496\n  calculateHelper.CalculateDieselArrivalTime(450)\n    Which is: 212",
+              "type": ""
+            }
+          ]
+        },
+        {
+          "name": "TestTrainGetDistanceShouldHaveCorrectDistance",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:33:23Z",
+          "time": "0s",
+          "classname": "CheckPoint3",
+          "failures": [
+            {
+              "failure": "\/box\/OOP2023f_111590028_HW\/test\/ut_CheckPoint3.cpp:62\nExpected equality of these values:\n  train.GetEnergyInfo()->GetDistance()\n    Which is: -418598496\n  calculateHelper.CalculateDieselDistance(450)\n    Which is: 50",
+              "type": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

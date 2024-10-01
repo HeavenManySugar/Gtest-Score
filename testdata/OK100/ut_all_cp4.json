@@ -1,0 +1,327 @@
+{
+  "tests": 34,
+  "failures": 0,
+  "disabled": 0,
+  "errors": 0,
+  "timestamp": "2024-10-01T16:15:06Z",
+  "time": "0s",
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "CheckPoint1",
+      "tests": 6,
+      "failures": 0,
+      "disabled": 0,
+      "errors": 0,
+      "timestamp": "2024-10-01T16:15:06Z",
+      "time": "0s",
+      "testsuite": [
+        {
+          "name": "TestDieselEnergyConstructorShouldHaveCorrectValue",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:15:06Z",
+          "time": "0s",
+          "classname": "CheckPoint1"
+        },
+        {
+          "name": "TestDieselEnergyGetDistanceShouldHaveCorrectDistance",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:15:06Z",
+          "time": "0s",
+          "classname": "CheckPoint1"
+        },
+        {
+          "name": "TestDieselEnergyGetArrivalTimeShouldHaveCorrectArrivalTime",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:15:06Z",
+          "time": "0s",
+          "classname": "CheckPoint1"
+        },
+        {
+          "name": "TestElectricEnergyConstructorShouldHaveCorrectValue",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:15:06Z",
+          "time": "0s",
+          "classname": "CheckPoint1"
+        },
+        {
+          "name": "TestElectricEnergyGetDistanceShouldHaveCorrectDistance",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:15:06Z",
+          "time": "0s",
+          "classname": "CheckPoint1"
+        },
+        {
+          "name": "TestElectricEnergyGetArrivalTimeShouldHaveCorrectArrivalTime",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:15:06Z",
+          "time": "0s",
+          "classname": "CheckPoint1"
+        }
+      ]
+    },
+    {
+      "name": "CheckPoint2",
+      "tests": 9,
+      "failures": 0,
+      "disabled": 0,
+      "errors": 0,
+      "timestamp": "2024-10-01T16:15:06Z",
+      "time": "0s",
+      "testsuite": [
+        {
+          "name": "TestTicketInfoConstructorShouldSetupValueCorrectly",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:15:06Z",
+          "time": "0s",
+          "classname": "CheckPoint2"
+        },
+        {
+          "name": "TestTicketInfoGetPriceShouldReturnCorrectPrice",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:15:06Z",
+          "time": "0s",
+          "classname": "CheckPoint2"
+        },
+        {
+          "name": "TestReserveInfoConstructorShouldSetupValueCorrectly",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:15:06Z",
+          "time": "0s",
+          "classname": "CheckPoint2"
+        },
+        {
+          "name": "TestReserveTicketInfoConstructorShouldSetupValueCorrectly",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:15:06Z",
+          "time": "0s",
+          "classname": "CheckPoint2"
+        },
+        {
+          "name": "TestReserveTicketGetStartStationShouldReturnCorrectStation",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:15:06Z",
+          "time": "0s",
+          "classname": "CheckPoint2"
+        },
+        {
+          "name": "TestReserveTicketGetEndStationShouldReturnCorrectStation",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:15:06Z",
+          "time": "0s",
+          "classname": "CheckPoint2"
+        },
+        {
+          "name": "TestReserveTicketGetPriceShouldReturnCorrectPrice",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:15:06Z",
+          "time": "0s",
+          "classname": "CheckPoint2"
+        },
+        {
+          "name": "TestReserveTicketGetReserveInfoShouldReturnCorrectReserveInfo",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:15:06Z",
+          "time": "0s",
+          "classname": "CheckPoint2"
+        },
+        {
+          "name": "TestReserveTicketWithMultipleTicketShouldReturnCorrectReserveInfo",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:15:06Z",
+          "time": "0s",
+          "classname": "CheckPoint2"
+        }
+      ]
+    },
+    {
+      "name": "CheckPoint3",
+      "tests": 5,
+      "failures": 0,
+      "disabled": 0,
+      "errors": 0,
+      "timestamp": "2024-10-01T16:15:06Z",
+      "time": "0s",
+      "testsuite": [
+        {
+          "name": "TestTrainConstructorShouldHaveCorrectTrain",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:15:06Z",
+          "time": "0s",
+          "classname": "CheckPoint3"
+        },
+        {
+          "name": "TestTrainReserveSeatShouldHaveCorrectReserveInfo",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:15:06Z",
+          "time": "0s",
+          "classname": "CheckPoint3"
+        },
+        {
+          "name": "TestTrainReserveSeatWithMultiplePollShouldHaveCorrectReserveInfo",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:15:06Z",
+          "time": "0s",
+          "classname": "CheckPoint3"
+        },
+        {
+          "name": "TestTrainGetArrivalTimeShouldHaveCorrectArrivalTime",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:15:06Z",
+          "time": "0s",
+          "classname": "CheckPoint3"
+        },
+        {
+          "name": "TestTrainGetDistanceShouldHaveCorrectDistance",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:15:06Z",
+          "time": "0s",
+          "classname": "CheckPoint3"
+        }
+      ]
+    },
+    {
+      "name": "CheckPoint4",
+      "tests": 14,
+      "failures": 0,
+      "disabled": 0,
+      "errors": 0,
+      "timestamp": "2024-10-01T16:15:06Z",
+      "time": "0s",
+      "testsuite": [
+        {
+          "name": "TestLocalTrainConstructorShouldHaveCorrectTrain",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:15:06Z",
+          "time": "0s",
+          "classname": "CheckPoint4"
+        },
+        {
+          "name": "TestLocalTrainGetTicketShouldHaveCorrectTicket",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:15:06Z",
+          "time": "0s",
+          "classname": "CheckPoint4"
+        },
+        {
+          "name": "TestTrainGetArrivalTimeShouldHaveCorrectArrivalTime",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:15:06Z",
+          "time": "0s",
+          "classname": "CheckPoint4"
+        },
+        {
+          "name": "TestLocalTrainGetDistanceShouldHaveCorrectDistance",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:15:06Z",
+          "time": "0s",
+          "classname": "CheckPoint4"
+        },
+        {
+          "name": "TestExpressTrainConstructorShouldHaveCorrectTrain",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:15:06Z",
+          "time": "0s",
+          "classname": "CheckPoint4"
+        },
+        {
+          "name": "TestExpressTrainReserveSeatShouldHaveCorrectReserveInfo",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:15:06Z",
+          "time": "0s",
+          "classname": "CheckPoint4"
+        },
+        {
+          "name": "TestExpressTrainReserveSeatWithMultiplePollShouldHaveCorrectReserveInfo",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:15:06Z",
+          "time": "0s",
+          "classname": "CheckPoint4"
+        },
+        {
+          "name": "TestExpressTrainGetArrivalTimeShouldHaveCorrectArrivalTime",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:15:06Z",
+          "time": "0s",
+          "classname": "CheckPoint4"
+        },
+        {
+          "name": "TestExpressTrainGetDistanceShouldHaveCorrectDistance",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:15:06Z",
+          "time": "0s",
+          "classname": "CheckPoint4"
+        },
+        {
+          "name": "TestTouristTrainConstructorShouldHaveCorrectTrain",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:15:06Z",
+          "time": "0s",
+          "classname": "CheckPoint4"
+        },
+        {
+          "name": "TestTouristTrainReserveSeatShouldHaveCorrectReserveInfo",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:15:06Z",
+          "time": "0s",
+          "classname": "CheckPoint4"
+        },
+        {
+          "name": "TestTouristTrainReserveSeatWithMultiplePollShouldHaveCorrectReserveInfo",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:15:06Z",
+          "time": "0s",
+          "classname": "CheckPoint4"
+        },
+        {
+          "name": "TestTouristTrainGetArrivalTimeShouldHaveCorrectArrivalTime",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:15:06Z",
+          "time": "0s",
+          "classname": "CheckPoint4"
+        },
+        {
+          "name": "TestTouristTrainGetDistanceShouldHaveCorrectDistance",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:15:06Z",
+          "time": "0s",
+          "classname": "CheckPoint4"
+        }
+      ]
+    }
+  ]
+}

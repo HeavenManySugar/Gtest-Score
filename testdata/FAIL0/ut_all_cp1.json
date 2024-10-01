@@ -1,0 +1,106 @@
+{
+  "tests": 6,
+  "failures": 6,
+  "disabled": 0,
+  "errors": 0,
+  "timestamp": "2024-10-01T16:25:10Z",
+  "time": "0s",
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "CheckPoint1",
+      "tests": 6,
+      "failures": 6,
+      "disabled": 0,
+      "errors": 0,
+      "timestamp": "2024-10-01T16:25:10Z",
+      "time": "0s",
+      "testsuite": [
+        {
+          "name": "TestDieselEnergyConstructorShouldHaveCorrectValue",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:25:10Z",
+          "time": "0s",
+          "classname": "CheckPoint1",
+          "failures": [
+            {
+              "failure": "\/box\/OOP2023f_111590028_HW\/test\/ut_CheckPoint1.cpp:9\nExpected equality of these values:\n  dieselEnergy.GetEnergy()\n    Which is: -862296632\n  250",
+              "type": ""
+            }
+          ]
+        },
+        {
+          "name": "TestDieselEnergyGetDistanceShouldHaveCorrectDistance",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:25:10Z",
+          "time": "0s",
+          "classname": "CheckPoint1",
+          "failures": [
+            {
+              "failure": "\/box\/OOP2023f_111590028_HW\/test\/ut_CheckPoint1.cpp:16\nExpected equality of these values:\n  dieselEnergy.GetDistance()\n    Which is: -862296632\n  calculateHelper.CalculateDieselDistance(250)\n    Which is: 50",
+              "type": ""
+            }
+          ]
+        },
+        {
+          "name": "TestDieselEnergyGetArrivalTimeShouldHaveCorrectArrivalTime",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:25:10Z",
+          "time": "0s",
+          "classname": "CheckPoint1",
+          "failures": [
+            {
+              "failure": "\/box\/OOP2023f_111590028_HW\/test\/ut_CheckPoint1.cpp:23\nExpected equality of these values:\n  dieselEnergy.GetTerminalStationArrivalTimeInSecond()\n    Which is: -862296632\n  calculateHelper.CalculateDieselArrivalTime(250)\n    Which is: 158",
+              "type": ""
+            }
+          ]
+        },
+        {
+          "name": "TestElectricEnergyConstructorShouldHaveCorrectValue",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:25:10Z",
+          "time": "0s",
+          "classname": "CheckPoint1",
+          "failures": [
+            {
+              "failure": "\/box\/OOP2023f_111590028_HW\/test\/ut_CheckPoint1.cpp:29\nExpected equality of these values:\n  electricEnergy.GetEnergy()\n    Which is: -862296632\n  399",
+              "type": ""
+            }
+          ]
+        },
+        {
+          "name": "TestElectricEnergyGetDistanceShouldHaveCorrectDistance",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:25:10Z",
+          "time": "0s",
+          "classname": "CheckPoint1",
+          "failures": [
+            {
+              "failure": "\/box\/OOP2023f_111590028_HW\/test\/ut_CheckPoint1.cpp:36\nExpected equality of these values:\n  electricEnergy.GetDistance()\n    Which is: -862296632\n  calculateHelper.CalculateElectricDistance(399)\n    Which is: 5983",
+              "type": ""
+            }
+          ]
+        },
+        {
+          "name": "TestElectricEnergyGetArrivalTimeShouldHaveCorrectArrivalTime",
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2024-10-01T16:25:10Z",
+          "time": "0s",
+          "classname": "CheckPoint1",
+          "failures": [
+            {
+              "failure": "\/box\/OOP2023f_111590028_HW\/test\/ut_CheckPoint1.cpp:43\nExpected equality of these values:\n  electricEnergy.GetTerminalStationArrivalTimeInSecond()\n    Which is: -862296632\n  calculateHelper.CalculateElectricArrivalTime(399)\n    Which is: 2147483647",
+              "type": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
